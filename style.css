@@ -1,0 +1,226 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0px;
+    text-align: center;
+    animation: fade-in;
+    animation-duration: 1.5s;
+    position: relative;
+    background-color: #171e24;
+    font-size: 14px;
+}
+
+h1 {
+    font-family: 'Michroma', sans-serif;
+    color: #cc825d;
+}
+
+p {
+    letter-spacing: 2px;
+    line-height: 20px;
+}
+
+span.info-title {
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: #cc825d;
+    color: #171e24;
+}
+
+#about {
+    text-align: left;
+    background-color: #171e24;
+    color: rgb(176, 181, 194);
+    margin: 0;
+    padding: 4rem 2rem 3rem 2rem;
+}
+
+
+#photo {
+    background-color: #fff;
+    color: #171e24;
+    margin: 0;
+    padding: 3rem;
+}
+
+#media {
+    color: #434c55;
+    margin: 0;
+    padding: 3rem;
+}
+
+#contact {
+    color: #fff;
+    margin: 0;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+#footer {
+    height: 2rem;
+    background-color: #434c55;
+    color: #95a2af;
+}
+
+
+.bg-pic {
+    background-color: #171e24;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0.6) 70%), url("/img/bg-03.jpg");
+    height: 100%;
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg-op {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.2) 30%, rgba(255, 255, 255, 0.2) 70%);
+}
+
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+
+.title {
+    padding: 15rem 0rem 0rem 0rem;
+}
+
+.subtitle {
+    font-family: 'Michroma', sans-serif;
+    color: azure;
+}
+
+.intro {
+    background-color: #82563f;
+    border: 0px;
+}
+
+.intro:hover {
+    background-color: #755c52;
+}
+
+.intro:active {
+    border: 0px;
+    background: inherit;
+}
+
+.logo {
+    margin-right: 1rem;
+    font-family: 'Michroma', sans-serif;
+}
+
+.jumbotron {
+    background-color: rgba(255, 251, 247, 0.9);
+    float: left;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 250px;
+    z-index: 1000;
+    padding: 30px;
+    animation: jum-fadein;
+    animation-duration: 2.5s;
+}
+
+.hoster-pic {
+    float: right;
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+}
+
+.location {
+    width: 80vw;
+    height: 60vh;
+    border: 0;
+}
+
+.info {
+    padding-top: 2rem;
+}
+
+.fab {
+    font-size: 20px;
+}
+
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes jum-fadein {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
+@media (max-width: 900px) {
+    .jumbotron {
+        top: 200px;
+        z-index: 4;
+        padding: 20px;
+    }
+
+    .hoster-pic {
+        width: 280px;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    #photo {
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .jumbotron {
+        top: 70px;
+        z-index: 4;
+        padding: 10px;
+    }
+
+    .display-4 {
+        font-size: 30px;
+    }
+
+    .jumbotron {
+        top: 170px;
+    }
+}
+
+@media (max-width: 590px) {
+    .jumbotron {
+        top: 70px;
+    }
+}
+
+@media (min-width: 576px) {
+    .card-deck .card {
+        margin-bottom: 30px;
+    }
+
+    #photo {
+        padding: 3rem;
+    }
+}

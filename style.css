@@ -68,7 +68,7 @@ span.info-title {
 
 .bg-pic {
     background-color: #171e24;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0.6) 70%), url("../img/bg-03.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0.6) 70%), url("/style.css");
     height: 100%;
     background-position: left top;
     background-repeat: no-repeat;

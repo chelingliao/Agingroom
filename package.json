@@ -1,0 +1,22 @@
+{
+  "name": "agingroom",
+  "version": "1.0.0",
+  "description": "AgingRoom",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chelingliao/Agingroom.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chelingliao/Agingroom/issues"
+  },
+  "homepage": "https://github.com/chelingliao/Agingroom#readme",
+  "dependencies": {
+    "aos": "^2.3.4"
+  }
+}

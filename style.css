@@ -69,8 +69,9 @@ span.info-title {
 .bg-pic {
     background-color: #171e24;
     background-image: linear-gradient(rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0.6) 70%), url("https://chelingliao.github.io/Agingroom/img/bg-03.jpg");
-    height: 100%;
-    background-position: left top;
+    background-position: center;
+    width: 100%;
+    height: auto;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -182,7 +183,6 @@ span.info-title {
     }
 
     .hoster-pic {
-        width: 280px;
         display: flex;
         justify-content: center;
     }

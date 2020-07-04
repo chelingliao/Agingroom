@@ -195,7 +195,7 @@ span.info-title {
 
 @media (max-width: 768px) {
     .jumbotron {
-        top: 70px;
+        top: 170px;
         z-index: 4;
         padding: 10px;
     }
@@ -204,8 +204,8 @@ span.info-title {
         font-size: 30px;
     }
 
-    .jumbotron {
-        top: 170px;
+    .container {
+        max-width: 800px;
     }
 }
 

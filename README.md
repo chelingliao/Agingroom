@@ -29,3 +29,8 @@ Carousel photo.
 With the location Google map, address, public transport, opening time, telephone and email.
 
 ![image](https://github.com/chelingliao/Agingroom/blob/master/readmeImg/readmeImg-05.png)
+
+
+### Process
+Bootstrap is really useful and easy to use. Especially it's helpful to make a RWD web page.
+Also I use the AOS Animate On Scroll Library ( https://michalsnik.github.io/aos/ )  to make some animation.
